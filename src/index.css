@@ -5,3 +5,20 @@
 body {
     @apply font-cabin
 }
+
+#root {
+    @apply w-full grid place-items-center;
+}
+
+.counter {
+    @apply mt-20 text-center;
+}
+
+.counter p,
+.counter button {
+    @apply text-4xl font-medium;
+}
+
+.counter div {
+    @apply flex gap-10 mt-5 items-center;
+}
