@@ -1,7 +1,9 @@
+import Counter from "./features/counter/Counter"
+
 function App() {
   return (
     <>
-      <p>Project Setup</p>
+      <Counter />
     </>
   )
 }
